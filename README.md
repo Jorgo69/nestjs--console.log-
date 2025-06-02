@@ -21,6 +21,9 @@ nest g s [service-names]
 create guard
 nest g gu [guard-name]
 
+create interceptor
+nest g interceptor [guard-name]
+
 Installation de [Bycrypt](https://www.npmjs.com/package/bcrypt)
 
 `npm install bcrypt`
@@ -54,3 +57,11 @@ Pour type nos requetes sql
 `npm install @nestjs/typeorm typeorm mysql2`
 
 Apres on fait des config dans `src/app.module.ts`, les imports
+
+
+Execution en Nest 
+
+1 - Middleware
+2 - Guards
+3 - Les Interceptors
+4 - Controllers
